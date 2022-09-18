@@ -1,0 +1,42 @@
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative;  
+  }
+  .fancy span:before,
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    top: 0;
+    width: 100px;
+  }
+  .fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+
+  .font{
+    font-size: medium;
+    margin-left: 10px;
+  }
+  .marg{
+    margin: 0;
+  }
+
+  .space{
+    margin-left:  25rem;
+    font-size: 25px;
+  }
+
+ 

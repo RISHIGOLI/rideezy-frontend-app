@@ -1,0 +1,18 @@
+.demo{
+    background-color: #7f0c86;
+}
+.pk{
+    background-color: #d77edc;
+}
+.Hover:hover{
+    box-shadow: 0px -5px 5px 6px rgba(133, 131, 131, 0.5);
+    /* box-shadow: 10px 10px 5px 12px lightblue; */
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.Hover{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
